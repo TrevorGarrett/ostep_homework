@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// Only the flag variable corresponding to the active process is set, (parent process sets parent_flag)
+// This means that the OS provides separate address spaces for new forked threads
 int fork_with_flags(){
     int child_flag = 0;
     int parent_flag = 0;
