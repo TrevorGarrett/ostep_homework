@@ -1,0 +1,3 @@
+add_executable(1_fork_with_flags 1_fork_with_flags.cpp)
+add_executable(2_fork_opened_file 2_fork_opened_file.cpp)
+add_executable(3_fork_with_barrier 3_fork_with_barrier.cpp)
